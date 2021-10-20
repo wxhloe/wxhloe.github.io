@@ -27,6 +27,7 @@ img{
 
 
 h1 {
+	font-family: arial,helvetica,sans-serif;
 	font-size:60px;
 	text-align: center;
 	border: 3.5px solid rgb(207,215,176);
@@ -38,6 +39,7 @@ h1 {
 }
 
 h2{
+	font-family: arial,helvetica,sans-serif;
 	font-size:50px;
 	text-align: left;
 	border: 3.0px solid darkgreen;
@@ -49,6 +51,7 @@ h2{
 }
 
 h3{
+	font-family: arial,helvetica,sans-serif;
 	font-size:50px;
 	text-align: left;
 	border: 3.0px solid rgb(167,154,123);
@@ -118,7 +121,7 @@ h3{
 }	
 
 ul {
-	list-style-type: none;
+	display:block;
 	margin: 0;
 	padding:0;
 	overflow:hidden;
