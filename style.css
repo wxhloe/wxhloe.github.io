@@ -135,9 +135,9 @@ li:last-child{
 	border-right:none;
 }
 
+
 li a{
-	border:1px solid Honeydew;
-	margin-left:140px;
+	margin-left:auto;
 	display: block;
 	color: white;
 	text-align: center;
