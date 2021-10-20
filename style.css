@@ -1,0 +1,186 @@
+body {
+	background-image:url("bg.jpg"); /*insert background image, make it same to every page*/
+}
+
+div.b1{
+	background: rgb(153,164,188,0.5); /*background for the body of platinumtravel page, make it 50% transparant*/ 
+}
+
+div.b{
+	background: rgb(128,137,122,0.5);/*background for the body of rewards page, make it 50% transparant*/ 
+}
+
+div.b2{
+	background:rgb(102,102,102,0.5);/*background for the body of firstclasstravel page, make it 50% transparant*/ 
+}
+
+div.b3{
+	background-image:url("bgt.jpg");/*background for the body of aboutme page, insert an image*/ 
+}	
+
+/*make the image to center, apply to all images, except for background image*/	
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+/*headline style for index page*/	
+h1 {
+	font-size:60px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	border: 3.5px solid rgb(207,215,176);
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 15px;
+	background-color: rgb(207,215,176);
+	color:darkslategrey;
+}
+
+/*headline style for rewards, platinumtravel and firstclasstravel page*/
+h2{
+	font-size:50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	border: 3.0px solid darkgreen;
+	margin-left: 0px;
+	margin-right: 700px;
+	padding: 10px;
+	background-color: darkgreen;
+	color:Gainsboro;
+}
+
+/*headline style for aboutme page*/
+h3{
+	font-size:50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	border: 3.0px solid rgb(167,154,123);
+	margin-left: 0px;
+	margin-right: 1500px;
+	padding: 10px;
+	background-color: rgb(167,154,123);
+	color:Gainsboro;
+}
+
+/*paragraph style for index page*/
+.p1 {
+	font-size: 30px;
+	font-family: arial,helvetica,sans-serif;
+	border: 3.5px solid rgb(156,158,137);
+	background-color: rgb(156,158,137);
+	margin-left: 200px;
+	margin-right: 200px;
+	color:dimgray
+}
+
+/*paragraph style for rewards page*/
+.p2{
+	font-size: 30px;
+	font-family: arial,helvetica,sans-serif;
+	border: 3.5px solid rgb(128,137,122);
+	background-color: rgb(128,137,122);
+	margin-left: 300px;
+	margin-right: 300px;
+	color:gainsboro
+}	
+
+/*paragraph style for platinumtravel page*/
+.p3{
+	font-size: 30px;
+	font-family: arial,helvetica,sans-serif;
+	border: 3.5px solid rgb(153,164,188);
+	background-color: rgb(153,164,188);
+	margin-left: 300px;
+	margin-right: 300px;
+	color:gainsboro
+}	
+
+/*paragraph style for text "Style not satisfied..." in rewards and platinum page*/
+.p4{
+	font-size: 40px;
+	font-style: italic;
+	font-family: arial,helvetica,sans-serif;
+	margin-left: 30px;
+	margin-right: 30px;
+	color:maroon;
+}	
+
+/*paragraph style for firstclasstravel page*/
+.p5{
+	font-size: 30px;
+	font-family: arial,helvetica,sans-serif;
+	border: 3.5px solid #666666;
+	background-color: #666666;
+	margin-left: 300px;
+	margin-right: 300px;
+	color:gainsboro;
+}	
+
+/*paragraph style for aboutme page*/
+.p6{
+	font-size: 30px;
+	font-family: arial,helvetica,sans-serif;
+	border: 3.5px solid rgb(121,124,136);
+	background-color:rgb(121,124,136);
+	margin-left: 300px;
+	margin-right: 300px;
+	color:gainsboro;
+}	
+
+/*style for navigation bar in every page, name the mother as ul and child as li*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	background-color:darkolivegreen;
+}
+
+/*float to left*/
+li{
+	float: left;
+}
+
+/*set font, margin, display as block, color. padding, text-align*/
+li a{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 20px;
+	text-decoration: none;
+}
+
+/*make the list active, set background color*/
+li a:hover:not(.active){
+	background-color:darkseagreen;
+}
+
+/*set the active background color*/
+.active{
+	background-color:rgb(205,164,156);
+}
+
+/*set table style, set font, border, width, background color and margin*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: gray;
+  margin:auto;
+}
+
+/*set style for both td and th in table, set border, padding, and text-align to left*/
+td, th {
+  border: 2px solid green;
+  text-align: left;
+  padding: 8px;
+ }
+/*set even lines background color to #dddddd*/
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
